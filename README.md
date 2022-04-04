@@ -1,20 +1,15 @@
-# respondents
+# Тестовое задание: разработать интерактивную страницу по макету
+# Ссылка на тестовое задание https://www.notion.so/9705f0f45db4433f9360f487fe5c805c
 
-## Build Setup
+## Инструкция по разворачиванию приложения
 
 ```bash
-# install dependencies
+# установить зависимости
 $ npm install
 
-# serve with hot reload at localhost:3000
+# запустить сервер разработки на localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# Приложенние открывается сразу на нужной странице.
+# Вкладка "Респонденты"
+# Запрос отправляется на сервер при нажатии на кнопку "Далее"

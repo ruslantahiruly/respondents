@@ -10,11 +10,11 @@
       }
     },
     "address": { "string": ["пр. Ленина, 23-47", "ул. Кирова, 56-343", "Комсомольский пр., 12-34", "ул. Энгельса, 41-95", "ул. Братьев Кашириных, 102-75"] },
-    "belongsTo": "Division",
+    "division": { "belongsTo": "Division" },
     "aboutMe": { "loremParagraphs": { "minLength": 200, "maxLength": 500 } }
   },
   "Division": {
     "name": { "string": ["Контроль качества", "Разработка", "Бухгалтерия", "Цех"] },
-    "hasMany": "Worker"
+    "worker": { "hasMany": "Worker" }
   }
 }
